@@ -1,0 +1,8 @@
+all these for creating project in cmd line
+
+mvn archetype:generate -DgroupId=com.bharath -DartifactId=hellomaven -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+mnn install
+
+
+java -cp target/hellomaven-1.0-SNAPSHOT.jar
